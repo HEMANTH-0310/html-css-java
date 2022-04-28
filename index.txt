@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login form</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh0;   
+    background: url('pic.2.jpg');
+    background-size: cover;
+}
+form{
+    margin-top: 50px;
+    text-align: center;
+}
+input{
+    display: block;
+    width: 350px;
+    height: 30px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    background: transparent;
+    color: black;
+}
+button{
+    width: 350px;
+    height: 5px;
+    font-size: 20px;
+    background-color: lavender;
+    border: none;
+    color: black;
+    margin-top: 30px;
+}
+form h1{
+    margin-bottom: 30px
+}
+::placeholder{
+    color: black;
+
+}
+        </style>
+</head>
+<body>
+    <div class="container">
+        <form action="Apllication form 2.html">
+            <h1>Login form</h1>
+            <div class="form group">
+                <label for="">Email id</label>
+                <input type="email" name="" placeholder="" required>
+            </div>
+            <div class="form group">
+                <label type="">Password</label>
+                <input type="password" class="form-control" required> 
+            </div>
+            <input type="submit" class="btn" value="Login">
+        </form>
+    </div>
+    <p class="para-2">Not have an account? <a href="signup.html">sign up here</a></p>
+</body>
+</html>
